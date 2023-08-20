@@ -1,0 +1,184 @@
+/*SLIDER */
+
+.slider {
+    overflow: hidden;
+  }
+  
+.slider__container {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    animation: 21s slider infinite;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+  
+  .slider__container li {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    background: #739ff1;
+    width: 100%;
+    float: left;
+    height: 70vh ;
+    position: relative;
+    overflow: hidden;
+    
+    text-align: left;
+  }
+  
+
+  .slider__container img {
+    width: 100%;
+    margin-top: auto;
+    min-width: 1576px;
+    height: 70vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    filter: brightness(50%);
+ 
+
+
+
+  }
+
+  .estirado {
+    margin-top: -100vh;
+  }
+  
+  @keyframes slider {
+    0% {
+        left: 0;
+    }
+    28% {
+        left: 0;
+    }
+    32% {
+        left: -100%;
+    }
+    60% {
+        left: -100%;
+    }
+    64% {
+        left: -200%;
+    }
+    95% {
+        left: -200%;
+    }
+    100% {
+        left: 0
+    }
+  
+  }
+  
+
+
+  .slider__container--info a{
+    width: 8vw;
+    text-align: center;
+    border: 0.1vw solid #ffff;
+    padding: 1vw;
+    font-size: 1vw;
+
+  }
+  @import url(//db.onlinewebfonts.com/c/57899161228618534d9a6c5c5408fb06?family=Guide+Medium);
+
+  @font-face {font-family: "Guide Medium"; src: url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.eot"); src: url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.woff") format("woff"), url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/57899161228618534d9a6c5c5408fb06.svg#Guide Medium") format("svg"); }
+
+  .slider__container--info {
+    font-size: 1.2vw;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: -43vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: "Guide Medium";
+    color: #fff;
+
+  }
+
+.info__titulo {
+    font-size: 2.5vw;
+    width: 25vw;
+    margin-top: -3.2vh;
+}
+
+
+.comic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20vh;
+  margin-top:5vh;
+}
+
+.comic__container {
+  width: 70vw;
+
+}
+
+.comic__container h2 {
+  font-size: 2.1vw;
+  font-family: "Guide Medium";
+}
+
+.comic__container--listado {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8vw;
+  list-style: none;
+  padding: 0;
+}
+
+.comic__container--listado li {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+  gap: 1vw;
+  align-items: center;
+  padding: 1vw 1vw 2vw;
+  font-family:'Guide Medium';
+  box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.58);
+  position: relative;
+
+}
+
+.comic__container--listado img{
+  width: 14vw;
+  height: 40vh;
+  transition: .3s;
+
+
+}
+
+.comic__container--listado img:hover {
+  scale: 1.03;
+}
+
+
+.prox {
+  position: absolute;
+  margin-top: 20vh;
+  color: #fff;
+  font-family: fornite;
+  font-size: 2.3vw;
+}
+
+.opc {
+  filter: brightness(30%);
+}
+
+.opc1 {
+  filter: brightness(2%);
+}
+
+@font-face {
+  font-family: fornite;
+  src: url(/fonts/fortnite.otf);
+}

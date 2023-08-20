@@ -1,0 +1,235 @@
+.carrito {
+    padding-top: 13vh;
+    min-height: 60vh;
+}
+
+.carrito__container {
+    padding: 0 10vw;
+    display: flex;
+    padding-bottom: 15vh;
+
+}
+
+.carrito__box {
+    padding-top: 3vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+    flex-direction: column;
+
+}
+
+
+
+/*CARRITO INFORMACION*/
+
+.carrito-vacio {
+    margin-top: 5vh;
+    font-size: 1.2vw;
+}
+
+.carrito__box--cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+
+.carrito__box--cont h2{
+    margin: 0;
+}
+
+/** CARRITO **/
+.contenedor-carrito {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+
+}
+
+
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    
+}
+
+.carrito-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-main);
+    padding: .5vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    background-color: #eaeaea;
+    border-radius: 0.5vw;
+    height: 14vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.carrito-producto-imagen {
+    width: 6vw;
+    border-radius: 1vw;
+}
+.carrito-elemento {
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    gap: 1.5vh;
+    padding: 0 5vw;
+
+}
+
+
+
+
+.carrito-elemento span{
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+
+.carrito-producto-cantidad p{
+    font-size: 2vw;
+    margin: 0;
+
+}
+
+.carrito-producto small {
+    font-size: 1vw;
+
+}
+
+.carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    width: 5vw;
+    align-items: center;
+}
+
+.carrito-producto-eliminar img {
+    width: 2vw;
+}
+
+.carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.carrito-acciones-vaciar {
+    border: 0;
+    background-color: var(--clr-gray);
+    padding: 1.4vw;
+    border-radius: 0.8vw;
+    color: var(--clr-main);
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 1px 1px 10px 0.1px #000000;
+
+
+
+}
+
+.carrito-acciones-derecha {
+    display: flex;
+    box-shadow: 1px 1px 10px 0.1px #000000;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+
+    
+}
+
+.carrito-acciones-total {
+    display: flex;
+    padding: 0.9vh 1vw;
+    text-transform: uppercase;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    gap: 1vw;
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2vw;
+    color: #fff;
+
+   
+}
+
+.carrito-acciones-comprar {
+    border: 0;
+    background-color: var(--clr-main);
+    padding: 1rem;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    font-size: 1.3vw;
+    background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.carrito-comprado {
+    font-size: 1vw;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.close-menu {
+    display: none;
+}
+
+.disabled {
+    display: none;
+}
+
+
+
+
+
+/*CARRITO VOLVER*/
+
+.carrito__box--volver {
+    background-color: black;
+    width: 10vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding: 1vh 0;
+    border-radius: 1vw;
+    transition: .3s;
+    height: 7vh;
+    box-shadow: 0 5px 5px rgba(1, 23,46, 0.6);
+
+}
+
+.carrito__box--volver img {
+    filter:contrast(1%) brightness(300%)
+}
+
+.carrito__box--volver span {
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carrito__box--volver:hover {
+    scale: 1.1;
+}
+
