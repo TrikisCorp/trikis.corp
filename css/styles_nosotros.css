@@ -86,17 +86,17 @@
 
 @font-face {
     font-family: daikonL;
-    src: url(/fonts/Daikon-Light.ttf);
+    src: url(../fonts/Daikon-Light.ttf);
 }
 
 @font-face {
     font-family: daikon;
-    src: url(/fonts/Daikon.ttf);
+    src: url(../fonts/Daikon.ttf);
 }
 
 @font-face {
     font-family: daikonB;
-    src: url(/fonts/Daikon-Bold.ttf);
+    src: url(../fonts/Daikon-Bold.ttf);
 }
 
 .name {

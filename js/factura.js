@@ -1,15 +1,15 @@
 const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito"))
 const contenedorCarritoProductos = document.querySelector("#info");
 let n1 = 0;
-const fechaActual = new Date();
-const dia = fechaActual.getDate();
-const mes = fechaActual.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
-const anio = fechaActual.getFullYear();
+const fechaNow = new Date();
+const day = fechaNow.getDate();
+const month = fechaNow.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
+const año = fechaNow.getFullYear();
 
-const fechaFormateada = `${dia}-${mes}-${anio}`;
+const fechaActualizada = `${day}-${month}-${año}`;
 const fecha = document.getElementById('datos_boleta')
 
-fecha.innerHTML = "<span>Nro. de pedido: 00001</span><span>fecha: "+fechaFormateada+"</span>"
+fecha.innerHTML = "<span>Nro. de pedido: 00001</span><span>fecha: "+fechaActualizada+"</span>"
 
     document.addEventListener("DOMContentLoaded", function() {
     

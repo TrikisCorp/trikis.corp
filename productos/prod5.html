@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='css/styles_venta.css'>
-    <link rel='stylesheet' href='css/styles_general.css'>
+    <link rel='stylesheet' href='../productos/css/styles_general.css'>
+    <link rel='stylesheet' href='../productos/css/styles_venta.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link rel='stylesheet' href='/css/responsive_styles.css'>
-<link rel='stylesheet' href='/productos/css/responsive_products.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='../css/responsive_styles.css'>
+    <link rel='stylesheet' href='../productos/css/responsive_products.css'>
+
 
 <script src='js/main.js'></script>
    
@@ -20,11 +21,10 @@
     <!-- LOADER -->
     <div class="lds-ring loader" id="loader"><div></div><div></div><div></div><div></div></div>    
     <!-- HEADER -->
-
     <header>
         <div class="header" id="header">
             <div class="header__logo">
-                <img src="/img/isotipo.png">
+                <img src="../img/isotipo.png">
                 <span>TRIKIS.CORP</span>
             </div>
 
@@ -37,22 +37,21 @@
                     <svg xmlns="http://www.w3.org/2000/svg" id="close" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                 </label>
                 <div class="header__nav--inf">
-                    <img src="img/menu.svg" alt="" class="nav__menu">
                     <ul class="nav__ul nav__ul--a">
-                        <li><a class="nav__item" href="/index.html">Inicio</a></li>
-                        <li><a class="nav__item nosotros" href="/nosotros.html">Nosotros</a>
+                        <li><a class="nav__item" href="../index.html">Inicio</a></li>
+                        <li><a class="nav__item nosotros" href="../nosotros.html">Nosotros</a>
                             <!-- <ul class="nav__subitems nav__nosotros">
                                 <li><a class="nav__subitem" href="#">Historia</a></li>
                                 <li><a class="nav__subitem" href="#">Objetivo</a></li>
                                 <li><a class="nav__subitem" href="#">Creadores</a></li>
                             </ul> -->
                         </li>
-                        <li><a class="nav__item" href="/productos.html">Productos<a></li>
+                        <li><a class="nav__item" href="../productos.html">Productos<a></li>
                     </ul>
 
                     <ul class="nav__ul nav__ul--b">
-                        <li><a class="nav__button" href="/contacto.html">Contactanos</a></li>
-                        <li><a class="nav__button" href="/comics.html">Nuestros Comics</a></li>
+                        <li><a class="nav__button" href="../contacto.html">Contactanos</a></li>
+                        <li><a class="nav__button" href="../comics.html">Nuestros Comics</a></li>
                     </ul>
                 </div>
             </nav>
@@ -63,8 +62,8 @@
     <!--VENTA DE PRODUCTO-->
     <div class="venta">
         <div class="venta__container">
-            <a href="/carrito.html" class="venta__carrito">
-                <img src="/img/product/cart.svg">
+            <a href="../carrito.html" class="venta__carrito">
+                <img src="../img/product/cart.svg">
                 <span class="cart">Carrito</span>
             </a>
             <div class="venta__box">
@@ -72,11 +71,11 @@
 
                 <div class="venta__img">
                     <div class="venta__slider">
-                        <img class="main_img p2" src="/img/product/producto5/1.png">
+                        <img class="main_img p2" src="../img/product/producto5/1.png">
                     </div>
 
                     <div class="venta__button">
-                        <img id="comic-01" class="thumbnail active" src="/img/product/producto5/1.png">
+                        <img id="comic-01" class="thumbnail active" src="../img/product/producto5/1.png">
 
 
                     </div>
@@ -96,29 +95,30 @@
                     </div>
                     <div class="venta__info--compra">
                         <div class="venta__info--contador">
-                            <button class="contador decr"><img src="/img/product/minus.png" id="decr"></button>
+                            <button class="contador decr"><img src="../img/product/minus.png" id="decr"></button>
                             <input value="0"  type="number"class="venta__info--cantidad contar">
-                            <button class="contador incr"><img src="/img/product/plus.png" id="incr"></button>
+                            <button class="contador incr"><img src="../img/product/plus.png" id="incr"></button>
                         </div>
-                        <button onclick="location.href='#'" class="venta__info--carrito"><img src="/img/product/cart.svg">Agregar a Carrito</button>
+                        <button onclick="location.href='#'" class="venta__info--carrito"><img src="../img/product/cart.svg">Agregar a Carrito</button>
                     </div>
                 </div>
             </div>
-            <a href="/productos.html" class="carrito__box--volver">
-                <img src="/img/product/arrow.svg">
+            <a href="../productos.html" class="carrito__box--volver">
+                <img src="../img/product/arrow.svg">
                 <span>Volver</span>
             </a> 
         </div>
     </div>
 
     <!--FOOTER-->
-    <footer class="footer">
+       <!--FOOTER-->
+       <footer class="footer">
         <div class="footer__container">
 			    <div class="footer__nosotros footer__box">
                     <div class="footer__nosotros-titulo">
-                        <img src="/img/isotipoW.png"><span>TRIKIS.CORP</span>
+                        <img src="../img/isotipoW.png"><span>TRIKIS.CORP</span>
                     </div>
-                    <p>Bienvenidos a trikis.corp. Una pagina web donde podran encontrar los últimos comics 
+					<p>Bienvenidos a trikis.corp. Una pagina web donde podran encontrar los últimos comics 
                         de Rocko y Rocky. Además de poder conseguir productos relacionados a 
                         la serie. No te olvides de compartir con tus conocidos.</p>
 				</div>
@@ -126,9 +126,9 @@
 			    <div class="footer__cosas footer__box">
 					<h3>Mas Cosas</h3>
 				    <ul> 
-						<li><a href="/nosotros.html"> > Nosotros</a></li>
-						<li><a href="/productos.html"> > Productos</a></li>
-						<li><a href="/comics.html"> > Comic</a></li>
+						<li><a href="../nosotros.html"> > Nosotros</a></li>
+						<li><a href="../productos.html"> > Productos</a></li>
+						<li><a href="../comics.html"> > Comic</a></li>
 					</ul>
 				</div>
 				 
